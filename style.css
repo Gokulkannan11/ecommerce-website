@@ -45,6 +45,12 @@ body{
     left: 0%;
     padding: 20px;
     color: white;
+    display: none;
+    transition: 2s;
+}
+
+.side-navbar-link{
+    margin-bottom: 30px;
 }
 
 
