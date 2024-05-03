@@ -63,6 +63,74 @@ body{
     text-decoration: underline;
 }
 
+/*Header*/
+
+.header{
+    display : flex;
+    justify-content: center;
+    padding: 50px;
+    gap: 50px;
+
+}
+
+.header-button{
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 10px;
+    background-color: #1d232c;
+    color:white;
+    cursor: pointer;
+}
+
+/*sevice*/
+.service-container-1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.service-container-2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+}
+
+.service-container-2 div {
+    background-color: #f2f4f7;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+/*new-arrival*/
+
+.new-arrival{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.new-arrival-container{
+    position: relative;
+    flex-basis: 20%;
+
+}
+
+.new-arrival button{
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    margin-top: 10px;
+    color: #1d232c;
+    position: absolute;
+    top: 50%;
+    left: 15%;
+    border-radius: 10px;
+    border: none;
+     
+}
 /*media Qurrey*/
 
 @media screen and (max-width : 700px) {
@@ -72,5 +140,13 @@ body{
     .navbar-links{
         display: none;
     }
-    
+    .header-image{
+        display: none;
+    }
+    .service-container{
+        display: none;
+    }
+    .service-container-2{
+        flex-direction: column;
+    }
 }
